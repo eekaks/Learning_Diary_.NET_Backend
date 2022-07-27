@@ -92,6 +92,7 @@ namespace Learning_Diary_Backend.Controllers
                 taskToUpdate.Deadline = task.Deadline;
                 taskToUpdate.Priority = task.Priority;
                 taskToUpdate.Done = task.Done;
+                taskToUpdate.Notes = task.Notes;
                 db.SaveChanges();
             }
 

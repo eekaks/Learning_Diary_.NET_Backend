@@ -52,6 +52,11 @@ namespace Learning_Diary_Backend.Models
                 entity.Property(e => e.Title)
                     .HasMaxLength(255)
                     .IsUnicode(false);
+
+                entity.Property(e => e.Notes)
+                    .HasColumnName("Notes")
+                    .HasMaxLength(8000)
+                    .IsUnicode(false);
             });
 
             modelBuilder.Entity<Topic>(entity =>

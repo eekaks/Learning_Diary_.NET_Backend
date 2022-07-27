@@ -12,5 +12,6 @@ namespace Learning_Diary_Backend.Models
         public DateTime? Deadline { get; set; }
         public int? Priority { get; set; }
         public bool? Done { get; set; }
+        public string Notes { get; set; }
     }
 }
