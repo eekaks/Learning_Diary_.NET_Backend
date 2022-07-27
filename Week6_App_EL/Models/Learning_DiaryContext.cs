@@ -35,7 +35,7 @@ namespace Learning_Diary_Backend.Models
 
                 entity.Property(e => e.Note1)
                     .HasColumnName("Note")
-                    .HasMaxLength(255)
+                    .HasMaxLength(8000)
                     .IsUnicode(false);
             });
 
