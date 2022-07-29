@@ -39,7 +39,7 @@ namespace Learning_Diary_Backend
                 options.AddDefaultPolicy(
                     builder =>
                     {
-                        builder.WithOrigins("https://localhost:3000", "http://localhost:3000")
+                        builder.WithOrigins("https://localhost:3000", "http://localhost:3000", "http://88.193.227.252:3000")
                             .AllowAnyHeader()
                             .AllowAnyMethod();
                     });
